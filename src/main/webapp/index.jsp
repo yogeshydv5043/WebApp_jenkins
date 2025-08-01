@@ -51,6 +51,7 @@
             <li>Clean, simple layout</li>
             <li>Ready for customization</li>
         </ul>
+        <a href="home.html">Home Page</a>
     </div>
 
     <footer>
