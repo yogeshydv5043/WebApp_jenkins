@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* Contact Hero */
+.contact-hero {
+	padding: 10rem 0 4rem;
+	text-align: center;
+	background: linear-gradient(135deg, rgba(67, 97, 238, 0.1),
+		rgba(76, 201, 240, 0.1));
+	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.contact-hero h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.contact-hero p {
+	font-size: 1.2rem;
+	color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+	padding: 4rem 0;
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3rem;
+}
+
+.contact-info {
+	background: white;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info h2 {
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+	color: var(--dark);
+}
+
+.info-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 1.5rem;
+}
+
+.info-item i {
+	color: var(--primary);
+	margin-right: 1rem;
+	margin-top: 0.3rem;
+}
+
+.info-item p {
+	color: #555;
+}
+
+.info-item a {
+	color: #555;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.info-item a:hover {
+	color: var(--primary);
+}
+
+.contact-info h3 {
+	font-size: 1.3rem;
+	margin: 2rem 0 1rem;
+	color: var(--dark);
+}
+
+.contact-form {
+	background: white;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h2 {
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+	color: var(--dark);
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	color: var(--dark);
+}
+
+.form-group input, .form-group textarea, .form-group select {
+	width: 100%;
+	padding: 0.8rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	transition: border-color 0.3s;
+}
+
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus
+	{
+	outline: none;
+	border-color: var(--primary);
+}
+
+.form-group textarea {
+	min-height: 150px;
+}
+
+/* Map Section */
+.map-section {
+	padding: 4rem 0;
+	background: linear-gradient(135deg, rgba(67, 97, 238, 0.03),
+		rgba(76, 201, 240, 0.03));
+}
+
+.map-section h2 {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+	color: var(--dark);
+}
+
+.map-container {
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media ( max-width : 768px) {
+	.contact-hero {
+		padding: 8rem 0 3rem;
+	}
+	.contact-grid {
+		grid-template-columns: 1fr;
+	}
+	.contact-hero h1 {
+		font-size: 2.5rem;
+	}
+}
