@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Website with Navigation</title>
+      <title>Home | WebCraft Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -383,7 +383,7 @@
                 <a href="index.html">BrandName</a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.jsp">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -395,12 +395,12 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <h1>Build Your Dream Website With Us</h1>
-        <p>We create beautiful, responsive websites that help businesses grow and reach more customers online.</p>
+     <section class="hero">
+        <h1>Transform Your Digital Presence</h1>
+        <p>We create stunning, high-performance websites that drive results for your business</p>
         <div class="hero-buttons">
             <a href="services.html" class="btn btn-primary">Our Services</a>
-            <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            <a href="contact.html" class="btn btn-secondary">Free Consultation</a>
         </div>
     </section>
 
