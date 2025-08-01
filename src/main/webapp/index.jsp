@@ -52,6 +52,7 @@
             <li>Ready for customization</li>
         </ul>
         <a href="home.html">Home Page</a>
+        <a href="about.html">About Page</a>
     </div>
 
     <footer>
